@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 170" role="img" aria-label="Elite Auto Center">
+  <defs>
+    <linearGradient id="steel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#eef2f6"/>
+      <stop offset=".5" stop-color="#9aa4b0"/>
+      <stop offset="1" stop-color="#d7dde4"/>
+    </linearGradient>
+  </defs>
+  <!-- arco -->
+  <path d="M95 118 A70 70 0 1 1 228 92" fill="none" stroke="#2f6fd6" stroke-width="9" stroke-linecap="round"/>
+  <path d="M106 112 A58 58 0 1 1 214 88" fill="none" stroke="#8fb4ee" stroke-width="3" stroke-linecap="round" opacity=".7"/>
+  <!-- chave -->
+  <g transform="rotate(-32 130 70)" fill="url(#steel)" stroke="#5c6672" stroke-width="1.5">
+    <path d="M124 52 h12 v62 a6 6 0 0 1 -12 0z"/>
+    <path d="M118 24 a18 18 0 1 0 24 0 l-4 14 h-16z"/>
+  </g>
+  <!-- amortecedor / mola -->
+  <g transform="rotate(24 168 66)">
+    <rect x="164" y="10" width="8" height="112" rx="3" fill="url(#steel)" stroke="#5c6672" stroke-width="1.5"/>
+    <circle cx="168" cy="10" r="7" fill="none" stroke="#9aa4b0" stroke-width="4"/>
+    <g fill="none" stroke="#c9d0d8" stroke-width="5" stroke-linecap="round">
+      <path d="M156 34 L180 40"/><path d="M156 48 L180 54"/><path d="M156 62 L180 68"/><path d="M156 76 L180 82"/><path d="M156 90 L180 96"/>
+    </g>
+  </g>
+  <!-- carro -->
+  <path d="M18 150 C40 128 70 120 110 116 C140 96 170 86 205 90 C240 94 268 110 292 122 C306 128 312 138 310 152 L296 152 C298 140 292 132 280 128 L250 122 C230 108 205 102 180 104 C150 106 130 118 118 126 C80 130 50 138 32 152 Z" fill="#f3f5f8"/>
+  <path d="M140 120 C160 106 190 102 214 108 C200 116 176 120 140 120 Z" fill="#0b0e14"/>
+  <path d="M30 160 C80 140 140 136 200 146 C150 144 90 148 30 160 Z" fill="#2f6fd6"/>
+</svg>
